@@ -1,0 +1,234 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "Qindel"
+  ],
+  "editor.accessibilitySupport": "off",
+  "editor.autoIndent": "full",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.fixAll",
+    "source.organizeImports"
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Control flow",
+        "scope": "keyword.control, ",
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "name": "Return flow",
+        "scope": "keyword.control.flow",
+        "settings": {
+          "fontStyle": "italic bold",
+        }
+      },
+      {
+        "name": "Function/Property/Class Name",
+        "scope": "entity.name.function, meta.class entity.name.type.class, variable.object.property",
+        "settings": {
+          "fontStyle": "bold",
+        }
+      },
+      {
+        "name": "Function Call",
+        "scope": [
+          "variable.function, source meta.function-call, meta.function-call.ts, source meta.function-call entity.name.function",
+          "meta.block meta.var.expr meta.function-call entity.name.function",
+          "source meta.function-call entity.name.function"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+        }
+      },
+      {
+        "name": "Scope and visibility",
+        "scope": [
+          "storage.modifier.async",
+          "storage.modifier",
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#aaa",
+        }
+      },
+      {
+        "name": "This super class",
+        "scope": [
+          "variable.language.this",
+          "variable.language.super"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#aaa",
+        }
+      },
+      {
+        "name": "Export Import from",
+        "scope": [
+          "keyword.control.export",
+          "keyword.control.import",
+          "keyword.control.from"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#aaa",
+        }
+      },
+      {
+        "name": "comments",
+        "scope": [
+          "comment",
+          "comment.line.double-slash.ts",
+          "comment.block.documentation.ts",
+          "punctuation.definition.comment.ts"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#0a0",
+        }
+      },
+      {
+        "name": "Types",
+        "scope": [
+          "keyword.control.as",
+          "entity.name.type",
+          "support.type",
+          "entity.other.inherited-class"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Contants",
+        "scope": [
+          "constant.language",
+          "constant.language.boolean",
+          "constant.language.boolean.false",
+          "constant.language.null",
+          "constant.numeric",
+          "string",
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Imported and objects",
+        "scope": [
+          "meta.import.ts",
+          "meta.parameters.ts",
+          "meta.object-literal.key.ts",
+          "meta.object.member.ts",
+          "storage.type.class.ts",
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "new",
+        "scope": [
+          "keyword.operator.new.ts",
+          "new.expr.ts",
+          "meta.class meta.field.declaration meta.function-call entity.name.function",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "other",
+        "scope": [
+          "variable.other",
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "No italics",
+        "scope": [
+          "punctuation.definition.block.ts",
+          "entity.name.tag",
+          "keyword.operator.logical.ts"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Html tag",
+        "scope": [
+          "entity.name.tag.html",
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Html content",
+        "scope": [
+          "text.html.derivative",
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Html attribute",
+        "scope": [
+          "entity.other.attribute-name.html",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Markdown Headers",
+        "scope": [
+          "entity.name.section.markdown",
+          "markup.heading.markdown",
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Markdown text",
+        "scope": [
+          "meta.paragraph.markdown",
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Markdown quote",
+        "scope": [
+          "markup.quote.markdown",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+    ]
+  },
+}
