@@ -1,6 +1,3 @@
-/* eslint-disable max-statements */
-/* eslint-disable max-depth */
-/* eslint-disable max-lines-per-function */
 import { Booking } from "./booking";
 import { HttpService } from "./http.service";
 import { SmtpService } from "./smtp.service";
