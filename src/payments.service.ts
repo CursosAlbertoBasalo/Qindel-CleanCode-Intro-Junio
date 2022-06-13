@@ -1,3 +1,6 @@
+/* eslint-disable max-statements */
+/* eslint-disable max-depth */
+/* eslint-disable max-lines-per-function */
 import { Booking } from "./booking";
 import { HttpService } from "./http.service";
 import { SmtpService } from "./smtp.service";
@@ -6,7 +9,7 @@ export class PaymentsService {
   private payMeAPIUrl = "https://pay-me.com/v1/payments";
   private bankEmail = "humanprocessor@bancka.com";
 
-  // * 🧼 🚿 CLEAN:  remove switch and enum flag, using specific functions instead
+  // ToDo: 💩 🤢 Arguments as primitives
 
   public payWithCard(booking: Booking, cardNumber: string, cardExpiry: string, cardCVC: string) {
     const url = `${this.cardWayAPIUrl}payments/card${cardNumber}/${cardExpiry}/${cardCVC}`;
